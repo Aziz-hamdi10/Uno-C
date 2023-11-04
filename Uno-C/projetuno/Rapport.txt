@@ -1,0 +1,38 @@
+salut
+Nos projet : Aziz Hamdi Amen bokhris 
+les fonction :
+
+1)
+int numorsp(char joueur[108][20],int nb);
+Permer de rendre le un entier 1 si le joueur a des carte special en ses nb carte 
+nb est le nombre des carte du ce joueur 
+2)
+void remplir1(char uno[108][20],char joueur[108][20],int n,int nb) ;
+permet du remplir le tableau du joueur par nb(7) carte  donneé de le tableau uno
+3) 
+void supprimer( char uno[108][20],int x,int n);
+permet du supprimer un case du table uno de l'indice x donneé
+4)
+void power2(char uno[108][20],char c[108][20],char joueur[108][20],char carte[20],int *o,int *n,int *nb,int zh) ;
+permet d'affecter le power d un carte c   [108][20] sur un joueur donneé joueur[108][20]  et du changeé la carte sur table (carte[20]) ,n est le taille du table uno ,nb taille du tableau joueur , zh est l'indice de ce carte dans la tableau ce fonction pour l'ordinateur (random)  
+5)
+int resul( char joueur[108][20], int score,int nb);
+permet du calculer la score du les cartes reste dans la table joueur donneé
+6)
+void game( int jeu , char uno[108][20],char joueur1[54][20],char joueur2[54][20],int n,int nb1,int nb2 );
+7)
+void affiche(char joueur[108][20],int nb);
+Permet d'affiche les nb carte du joueur donnée
+8)
+int numor(char joueur[108][20],char c[10],int nb);
+permet du calculer le nombre du carte dans table joueur donnée qui sont valid avec carte c retourn 1 c'est il y'a un carte our plusieur si non 0
+ 
+9)
+void power(char uno[108][20],char c[108][20],char joueur[108][20],char carte[20],int *o,int *n,int *nb,int z);
+permet d'affecter le power d un carte c   [108][20] sur un joueur donneé joueur[108][20]  et du changeé la carte sur table (carte[20]) ,n est le taille du table uno ,nb taille du tableau joueur , zh est l'indice de ce carte dans la tableau ce fonction pour un joueur manuelle  
+10)
+void ajout(char uno[108][20], char joueur[108][20],int nm,int n,int nb);
+permet d'ajout nm carte en le tableau joueur de table uno 
+int valid(char x[108][20],char y[20], int v);
+permet du vérif c'est la case numéro v du table x est compatible avec la carte y (carte sur table )
+ 
